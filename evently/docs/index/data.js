@@ -1,5 +1,5 @@
 function() {
-  var docs = $$(this).app.ddoc.vendor.couchapp.docs;
+  var docs = $$(this).app.ddoc.docs;
   var dnames = [];
   $.forIn(docs, function(d) {
     dnames.push({

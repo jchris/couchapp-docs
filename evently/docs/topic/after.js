@@ -9,7 +9,7 @@ function() {
       var id = r[1];
       var code_id = 'code-'+id;
       pre.wrap('<div id="'+code_id+'"></div>');
-      $('#'+code_id).evently(app.ddoc.vendor.couchapp.evently.docs.topic.edit, app, [id]);
+      $('#'+code_id).evently("edit", app, [id]);
     }
   });
 };
